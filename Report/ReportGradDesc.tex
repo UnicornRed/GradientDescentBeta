@@ -16,10 +16,21 @@
 \graphicspath{{img/}}
 \usepackage{verbatim}
 \usepackage{listings}
+\usepackage{hyperref}
 \setcounter{tocdepth}{2}
 \title{Стохастический градиентный спуск и бета-регрессия}
 \author{Олейник Михаил, группа 24.М22-мм}
 \date{\today}
 \begin{document}
 	\maketitle
+	
+	Весь код с комментариями и результатами можно найти в \href{https://github.com/UnicornRed/GradientDescentBeta}{репозитории}.
+	
+	\section{Задача линейной регрессии}
+	
+	Решение задачи линейной регрессии заключается в нахождении коэффициентов $\overline\beta$ линейной комбинации для случайной величины $\xi \sim N(\mu _\xi, \sigma)$ и случайного вектора $\overline{\eta} \sim \mathbf{N}(\overline \mu _\eta, \mathbf{\Sigma})$:
+	\[
+	\xi = \overline\eta ^T \overline\beta + \varepsilon,
+	\]
+	
 \end{document}
